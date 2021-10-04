@@ -341,7 +341,8 @@ h4 {
 }
 .h5,
 h5 {
- font-size:2rem
+ font-size:2rem;
+ margin-top:1.5rem
 }
 .h6,
 h6 {
