@@ -326,19 +326,22 @@ h1 {
 }
 .h2,
 h2 {
- font-size:2rem
+ font-size:1.7rem;
+ font-weight:400
 }
 .h3,
 h3 {
- font-size:1.75rem
+ font-size:1.3rem;
+ font-weight:400
 }
 .h4,
 h4 {
- font-size:1.5rem
+ font-size:3.13rem;
+ font-weight:500
 }
 .h5,
 h5 {
- font-size:1.25rem
+ font-size:2rem
 }
 .h6,
 h6 {
@@ -369,7 +372,7 @@ h6 {
  line-height:1.2
 }
 hr {
- margin-top:1rem;
+ margin-top:1.2rem;
  margin-bottom:1rem;
  border:0;
  border-top:1px solid rgba(0,0,0,.1)
