@@ -854,7 +854,7 @@ html:not([data-lt-script-installed]):not(.__lt-dummy-1):not(.__lt-dummy-2):not(.
   border-radius: 4px !important;
   margin: 1px !important;
   font-weight: 700 !important;
-  font-family: "RobotoMono", "Courier", monospace !important;
+  font-family: "Roboto", "Courier", monospace !important;
 }
 html:not([data-lt-script-installed]):not(.__lt-dummy-1):not(.__lt-dummy-2):not(.__lt-dummy-3):not(.__lt-dummy-4):not(.__lt-dummy-5):not(.__lt-dummy-6) lt-dialog .lt-premium-errors-teaser .lt-premium-errors-teaser__coupon .lt-premium-errors-teaser__coupon__timer .lt-premium-timer__timer__divider,
 html:not([data-lt-script-installed]):not(.__lt-dummy-1):not(.__lt-dummy-2):not(.__lt-dummy-3):not(.__lt-dummy-4):not(.__lt-dummy-5):not(.__lt-dummy-6) #popup-container .lt-premium-errors-teaser .lt-premium-errors-teaser__coupon .lt-premium-errors-teaser__coupon__timer .lt-premium-timer__timer__divider {
