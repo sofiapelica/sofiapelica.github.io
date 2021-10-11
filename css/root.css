@@ -347,8 +347,9 @@ h5 {
  font-family: 'Playfair Display', serif;
  letter-spacing: 0em;
  font-size:2rem;
- margin-top:1.6rem;
+ margin-top:0px;
  margin-bottom: 1rem;
+ padding-top: 30px;
 }
 .h6,
 h6 {
@@ -9430,13 +9431,14 @@ a.text-dark:hover {
 .jumbotron{
     background:rgba(0,0,0,0);
     padding:2.5em;
-    margin:2em auto;
+    margin: auto;
     min-height:100px;
     max-width:1700px;
     overflow: hidden;
     display: block;
     pointer-events: auto;
-    animation-name: anim-opacity-full;
+    border-radius: 0rem;
+    animation: fadeIn 5s;
     animation-duration: 480ms;
     animation-timing-function: ease-out;
     animation-delay: 0s;
@@ -9444,12 +9446,9 @@ a.text-dark:hover {
     animation-direction: normal;
     animation-fill-mode: none;
     animation-play-state: running;
+    align-items: center;
 }
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
