@@ -9426,7 +9426,14 @@ a.text-dark:hover {
 }
 [data-paroller-factor]{
     position:relative;
-    z-index:2
+    z-index:0
+}
+.vertical{
+    padding: 200px 0;
+}
+.my-5{
+    margin-top:3rem !important;
+    margin-bottom: 3rem !important;
 }
 .jumbotron{
     background:rgba(0,0,0,0);
@@ -9434,11 +9441,11 @@ a.text-dark:hover {
     margin-bottom: 3rem !important;
     margin-left: 0px;
     margin-right: 0px;
-    padding-top:1.55em;
-    padding-bottom:1.55em;
+    padding-top:2.2em;
+    padding-bottom:2.2em;
     display: block;
     border-radius: 0rem;
-    animation: fadeIn 480ms ease-out;
+    animation: fadeIn 3s ease-out;
 }
 @keyframes fadeIn {
     0% {opacity: 0;}

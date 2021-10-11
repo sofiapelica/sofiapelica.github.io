@@ -71,15 +71,13 @@
         </div>
       </div>
     </div>
-
+    <section id="vertical" class="my-5">
     <div class="jumbotron"
       style="background: url('https://images.squarespace-cdn.com/content/v1/5e984173eeb1b822eda750c9/1602066748200-I2US9DX3FPV6T6KAN9GV/pattern_High-03.jpg') no-repeat center;"
       data-paroller-factor="0.5"
-      data-paroller-factor-sm="0.2"
-      data-paroller-factor-xs="0.1"
     >
     </div>
-
+    </section>
     <div class="container d-none d-lg-block d-xl-block">
       <div class="row mb-5">
         <div class="col" style="padding-right: 34px;">
@@ -139,11 +137,13 @@
                                   </div>
               </div>
             </div>
+            <section id="vertical" class="my-5">
             <div class="jumbotron"
                  style="background: url('https://images.squarespace-cdn.com/content/v1/5e984173eeb1b822eda750c9/1602066748200-I2US9DX3FPV6T6KAN9GV/pattern_High-03.jpg') no-repeat center;"
                  data-paroller-factor="0.5"
             >
             </div>
+            </section>
             <div class="mt-4 mb-5 mx-2">
               <div id="bio" class="section level2">
               <h5>Bio</h5>
@@ -175,11 +175,10 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script>
-      $(document)
-          .ready(function () {
-              //initialize paroller.js
-              $('.jumbotron, [data-paroller-factor]').paroller();
-          });
+      $(function () {
+          $(window).paroller();
+         
+      });
     </script>
     
   </body>
