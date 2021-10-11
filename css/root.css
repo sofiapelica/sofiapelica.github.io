@@ -9445,7 +9445,9 @@ a.text-dark:hover {
     padding-bottom:2.2em;
     display: block;
     border-radius: 0rem;
-    animation: fadeIn 3s ease-out;
+    animation: fadeIn 1s ease-out;
+    height: 100%;
+    background-size: cover;
 }
 @keyframes fadeIn {
     0% {opacity: 0;}
