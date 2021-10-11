@@ -7,7 +7,6 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://sofiapelica.github.io/css/root.css" rel="stylesheet">
-
     <link href="https://sofiapelica.github.io/css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Signika Negative:wght@400;500&family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
     <style type="text/css">body {font-family: 'Signika Negative', sans-serif;}</style>
@@ -72,7 +71,7 @@
         </div>
       </div>
       <div class="jumbotron"
-                 style="background: url('https://unsplash.it/1920/800?image=152') repeat center; background-size: cover;"
+                 style="background: url('https://images.squarespace-cdn.com/content/v1/5e984173eeb1b822eda750c9/1602066748200-I2US9DX3FPV6T6KAN9GV/pattern_High-03.jpg') repeat center; background-size: cover;"
                  data-paroller-factor="-0.5"
                  data-paroller-factor-sm="-0.2"
                  data-paroller-factor-xs="-0.1"
@@ -137,7 +136,7 @@
               </div>
             </div>
             <div class="jumbotron"
-                 style="background: url('https://unsplash.it/1920/800?image=152') repeat center; background-size: cover;"
+                 style="background: url('https://images.squarespace-cdn.com/content/v1/5e984173eeb1b822eda750c9/1602066748200-I2US9DX3FPV6T6KAN9GV/pattern_High-03.jpg') repeat center; background-size: cover;"
                  data-paroller-factor="-0.5"
                  data-paroller-factor-sm="-0.2"
                  data-paroller-factor-xs="-0.1"
@@ -169,17 +168,17 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="css/jquery.paroller.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <script src="css/jquery.paroller.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script>
       $(document)
           .ready(function () {
               //initialize paroller.js
-              $('.jumbotron').paroller();
+              $('.jumbotron, [data-paroller-factor]').paroller();
           });
-  </script>
+    </script>
     
   </body>
 </html>
