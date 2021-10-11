@@ -3855,3 +3855,4 @@ html:not([data-lt-script-installed]):not(.__lt-dummy-1):not(.__lt-dummy-2):not(.
 .tweak-overlay-parallax-enabled.parallax-item-positioning-method-absolute .Parallax-item{
   position:absolute
 }
+.enable-load-effects .Intro-image{opacity:0;-webkit-transition:opacity 200ms ease-out;-moz-transition:opacity 200ms ease-out;-ms-transition:opacity 200ms ease-out;-o-transition:opacity 200ms ease-out;transition:opacity 200ms ease-out}.enable-load-effects .Intro-image.loaded{opacity:1}.Intro{position:relative;overflow:hidden;background-color:#e6eae8;-webkit-font-smoothing:subpixel-antialiased;-moz-osx-font-smoothing:auto}.Intro--has-image{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background-color:#000;color:#fff}
