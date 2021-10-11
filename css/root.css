@@ -9427,7 +9427,7 @@ a.text-dark:hover {
 [data-paroller-factor]{
     position:relative;
     z-index:auto;
-    margin: auto;
+    margin: 0px;
 }
 .my-5 {
     margin-top:3rem !important;
@@ -9439,6 +9439,7 @@ a.text-dark:hover {
 }
 .jumbotron {
     background:rgba(0,0,0,0);
+    background-size: contain;
     margin-top: 3rem !important;
     margin-bottom: 3rem !important;
     padding-top:2.3em;
@@ -9448,7 +9449,6 @@ a.text-dark:hover {
     animation: fadeIn 1s ease-out;
     max-height: 1700px;
     width: auto !important;
-    box-sizing: content-box;
 }
 @keyframes fadeIn {
     0% {opacity: 0;}
