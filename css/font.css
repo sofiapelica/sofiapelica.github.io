@@ -3,5 +3,12 @@ font-family: 'Signika Negative', sans-serif, 'Playfair Display', serif;
 font-style: normal;
 font-weight: 400;
 font-display: swap;
-src: url(https://fonts.googleapis.com/css2?family=Signika+Negative&family=Playfair+Display:wght@900&display=swap) format('truetype');
+src: url(https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap) format('truetype');
 }
+@font-face {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap) format('truetype');
+    }
