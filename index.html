@@ -30,7 +30,6 @@
     
           <script src="data:application/javascript;base64,Ly8gUGFuZG9jIDIuOSBhZGRzIGF0dHJpYnV0ZXMgb24gYm90aCBoZWFkZXIgYW5kIGRpdi4gV2UgcmVtb3ZlIHRoZSBmb3JtZXIgKHRvCi8vIGJlIGNvbXBhdGlibGUgd2l0aCB0aGUgYmVoYXZpb3Igb2YgUGFuZG9jIDwgMi44KS4KZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignRE9NQ29udGVudExvYWRlZCcsIGZ1bmN0aW9uKGUpIHsKICB2YXIgaHMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCJkaXYuc2VjdGlvbltjbGFzcyo9J2xldmVsJ10gPiA6Zmlyc3QtY2hpbGQiKTsKICB2YXIgaSwgaCwgYTsKICBmb3IgKGkgPSAwOyBpIDwgaHMubGVuZ3RoOyBpKyspIHsKICAgIGggPSBoc1tpXTsKICAgIGlmICghL15oWzEtNl0kL2kudGVzdChoLnRhZ05hbWUpKSBjb250aW51ZTsgIC8vIGl0IHNob3VsZCBiZSBhIGhlYWRlciBoMS1oNgogICAgYSA9IGguYXR0cmlidXRlczsKICAgIHdoaWxlIChhLmxlbmd0aCA+IDApIGgucmVtb3ZlQXR0cmlidXRlKGFbMF0ubmFtZSk7CiAgfQp9KTsK"></script>
     
-          <script src="https://sofiapelica.github.io/css/scroll.js"></script>
   </head>
   <body>
 
@@ -68,8 +67,12 @@
                           </ul>
           </div>
         </div>
-        <div class="section bg-static">
-          <div class="bg-move"></div>
+        <div class="jumbotron"
+                 style="background: url('https://unsplash.it/1920/800?image=152') repeat center; background-size: cover;"
+                 data-paroller-factor="-0.5"
+                 data-paroller-factor-sm="-0.2"
+                 data-paroller-factor-xs="-0.1"
+        >
         </div>
         <div class="col mr-4 mt-5">
           <img src="https://sofiapelica.github.io/img/sofia_pelica.jpg" style="height:15rem" class="rounded float-right">
@@ -133,8 +136,12 @@
                                   </div>
               </div>
             </div>
-            <div class="section bg-static">
-              <div class="bg-move"></div>
+            <div class="jumbotron"
+                 style="background: url('https://unsplash.it/1920/800?image=152') repeat center; background-size: cover;"
+                 data-paroller-factor="-0.5"
+                 data-paroller-factor-sm="-0.2"
+                 data-paroller-factor-xs="-0.1"
+            >
             </div>
             <div class="mt-4 mb-5 mx-2">
               <div id="bio" class="section level2">
@@ -162,9 +169,17 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="css/jquery.paroller.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+    <script>
+      $(document)
+          .ready(function () {
+              //initialize paroller.js
+              $('.jumbotron').paroller();
+          });
+  </script>
     
   </body>
 </html>

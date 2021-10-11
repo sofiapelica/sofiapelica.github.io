@@ -9423,28 +9423,13 @@ a.text-dark:hover {
   border-color:#dee2e6
  }
 }
-.section {
-    position: relative;
-    max-width: 920px;
-    min-height: 75vh;
-    padding: 40px;
-    margin: auto;
-    background-color: #48c9b0;
-    color: #ffffff;
-  }
-.section.bg-static {
-    background-color: #85c1e9;
-    background-image: url("https://www.dropbox.com/s/v4u0mpzfplgjxaq/img-blog-background-move-scrolling-bg.png?raw=1");
-    background-size: cover;
-    background-position: center;
-  }
-  .section .bg-move {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: auto;
-    width: 100%;
-    background-image: url("https://www.dropbox.com/s/isdqow2394y3t35/img-blog-background-move-scrolling-boat.png?raw=1");
-    background-size: cover;
-    background-position: center;
-  }
+[data-paroller-factor]{
+    position:relative;
+    z-index:0
+}
+.jumbotron{
+    background:hsla(0,0%,100%,.05);
+    padding:2.5em;
+    margin:2em auto;
+    min-height:400px
+}
