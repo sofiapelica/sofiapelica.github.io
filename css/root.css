@@ -9425,11 +9425,31 @@ a.text-dark:hover {
 }
 [data-paroller-factor]{
     position:relative;
-    z-index:0
+    z-index:2
 }
 .jumbotron{
-    background:hsla(0,0%,100%,.05);
+    background:rgba(0,0,0,0);
     padding:2.5em;
     margin:2em auto;
-    min-height:400px
+    min-height:100px;
+    max-width:1700px;
+    overflow: hidden;
+    display: block;
+    pointer-events: auto;
+    animation-name: anim-opacity-full;
+    animation-duration: 480ms;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
