@@ -9428,22 +9428,20 @@ a.text-dark:hover {
     position:relative;
     z-index:0
 }
-.vertical{
+.vertical {
     padding: 200px 0;
     margin:0;
     height:100%;
     overflow:hidden;
 }
-.my-5{
+.my-5 {
     margin-top:3rem !important;
     margin-bottom: 3rem !important;
 }
-.jumbotron{
+.jumbotron {
     background:rgba(0,0,0,0);
     margin-top: 3rem !important;
     margin-bottom: 3rem !important;
-    margin-left: 0px;
-    margin-right: 0px;
     padding-top:2.2em;
     padding-bottom:2.2em;
     display: block;
