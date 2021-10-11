@@ -9423,7 +9423,7 @@ a.text-dark:hover {
 }
 [data-paroller-factor]{
     position:relative;
-    z-index:auto;
+    z-index:2;
     margin: 0px;
 }
 .my-5 {
@@ -9431,14 +9431,13 @@ a.text-dark:hover {
     margin-bottom: 3rem !important;
     margin-left:-17px;
     margin-right:-17px;
-    height:100%;
     overflow:hidden;
+    padding-right: -15px;
+    padding-left: -15px;
 }
 .jumbotron {
     background:rgba(0,0,0,0);
     background-size: contain;
-    margin-top: 3rem !important;
-    margin-bottom: 3rem !important;
     padding-top:2.3em;
     padding-bottom:2.6em;
     display: block;
