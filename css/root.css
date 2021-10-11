@@ -9423,6 +9423,15 @@ a.text-dark:hover {
   border-color:#dee2e6
  }
 }
+.section {
+    position: relative;
+    max-width: 920px;
+    min-height: 75vh;
+    padding: 40px;
+    margin: auto;
+    background-color: #48c9b0;
+    color: #ffffff;
+  }
 .section.bg-static {
     background-color: #85c1e9;
     background-image: url("https://www.dropbox.com/s/v4u0mpzfplgjxaq/img-blog-background-move-scrolling-bg.png?raw=1");
