@@ -138,13 +138,13 @@ sup {
  top:-.5em
 }
 a {
- color:#007bff;
+ color:#3d61a8;
  text-decoration:none;
  background-color:transparent
 }
 a:hover {
- color:#0056b3;
- text-decoration:underline
+ color:#3d61a8;
+ background-color:#d8e4e8;
 }
 a:not([href]) {
  color:inherit;
@@ -9421,7 +9421,7 @@ a.text-dark:hover {
     margin-bottom: 1rem !important;
     overflow:hidden;
 }
-.jumbotron2 {
+.jumbotron {
     background:rgba(0,0,0,0);
     background-size: contain;
     padding-top:2.3em;
