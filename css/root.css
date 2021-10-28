@@ -144,7 +144,7 @@ a {
 }
 a:hover {
  color:#3d61a8;
- background-color:#d8e4e8;
+ background-color:#ffea7a63;
 }
 a:not([href]) {
  color:inherit;
@@ -9424,10 +9424,10 @@ a.text-dark:hover {
 .jumbotron {
     background:rgba(0,0,0,0);
     background-size: contain;
-    padding-top:2.3em;
-    padding-bottom:2.6em;
+    padding-top:8em;
+    padding-bottom:6.6em;
     display: block;
-    border-radius: 0rem;
+    border-radius: .25rem;
     animation: fadeIn 1s ease-out;
 }
 @keyframes fadeIn {
