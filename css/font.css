@@ -7,8 +7,22 @@ src: url(https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap)
 }
 @font-face {
     font-family: 'Playfair Display', serif;
-    font-style: normal, italic;
-    font-weight: 900, 400;
+    font-style: normal;
+    font-weight: 900;
     font-display: swap;
-    src: url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,400;1,900&display=swap) format('truetype');
+    src: url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap) format('truetype');
+    }
+@font-face {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap) format('truetype');
+    }
+@font-face {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap) format('truetype');
     }
