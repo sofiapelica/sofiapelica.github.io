@@ -314,11 +314,14 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
  margin-bottom:.5rem;
- font-weight:500;
- line-height:1.2
+ font-weight:900;
+ line-height:1.2;
+}
+h6 {
+font-weight:900;
+line-height:1.5em;
 }
 .h1,
 h1 {
@@ -353,7 +356,12 @@ h5 {
 }
 .h6,
 h6 {
- font-size:1rem
+ font-size:1.2rem;
+ background-color: #d6dee6;
+ font-family: 'Playfair Display';
+ font-style: italic;
+ font-weight: black;
+ letter-spacing: 0em;
 }
 .lead {
  font-size:1.25rem;
