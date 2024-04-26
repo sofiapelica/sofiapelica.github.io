@@ -84,14 +84,20 @@
       body {
         margin: 0;
         font-family:'Signika Negative', sans-serif;
-        font-size: 1.25rem;
+        font-size: 1rem;
         font-weight: 400;
-        line-height: 1.65;
+        line-height: 1.5;
         color: #0f2042;
         text-align: left;
         background-color: #E6ECEE;
       }
-    
+      @media (min-width: 750px) {
+    body {
+        font-size: 1.25rem; 
+        line-height: 1.65;
+        }
+      }
+
       [tabindex="-1"]:focus:not(:focus-visible) {
         outline: 0 !important
       }
