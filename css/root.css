@@ -514,6 +514,13 @@ pre code {
   max-width:1140px
  }
 }
+@media (max-width: 767px) {
+ .container {
+    padding-left: 20px; 
+    padding-right: 20px;
+    width: 200px;
+ }
+}
 .container-fluid,
 .container-lg,
 .container-md,
@@ -526,7 +533,7 @@ pre code {
 @media (min-width:576px) {
  .container,
  .container-sm {
-  max-width:540px
+  max-width:520px
  }
 }
 @media (min-width:768px) {
