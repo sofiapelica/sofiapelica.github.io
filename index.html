@@ -84,12 +84,12 @@
       body {
         margin: 0;
         font-family:'Signika Negative', sans-serif;
-        font-size: 1rem;
+        font-size: 1.25rem;
         font-weight: 400;
-        line-height: 1.5;
+        line-height: 1.65;
         color: #0f2042;
         text-align: left;
-        background-color: #E6ECEE
+        background-color: #fff;
       }
     
       [tabindex="-1"]:focus:not(:focus-visible) {
@@ -187,14 +187,14 @@
       }
     
       a {
-        color: #007bff;
+        color: #0f2042;
         text-decoration: none;
         background-color: transparent
       }
     
       a:hover {
-        color: #0056b3;
-        text-decoration: underline
+        color:#0f2042;
+        background-color:#ffedb64f;
       }
     
       a:not([href]) {
@@ -411,23 +411,34 @@
     
       .h2,
       h2 {
-        font-size: 2rem
-      }
+        font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0em;
+        }
     
       .h3,
       h3 {
-        font-size: 1.75rem
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-bottom: 0.8em;
       }
     
       .h4,
       h4 {
-        font-size: 1.5rem
-      }
+        font-family: 'Playfair Display', serif;
+    letter-spacing: 0em;
+    font-size: 3.2rem;
+    font-weight: 500;
+    margin-bottom: 0.5em;      }
     
       .h5,
       h5 {
-        font-size: 1.25rem
-      }
+        font-family: 'Playfair Display', serif;
+    letter-spacing: 0em;
+    font-size: 2.2rem;
+    margin-top: 0px;
+    margin-bottom: 1.5rem;
+    padding-top: 30px;      }
     
       .h6,
       h6 {
@@ -583,7 +594,25 @@
         color: inherit;
         word-break: normal
       }
-    
+      .jumbotron {
+    background: rgba(0, 0, 0, 0);
+    background-size: contain;
+    padding-top: 8em;
+    padding-bottom: 9.6em;
+    display: block;
+    border-radius: .25rem;
+    animation: fadeIn 1s ease-out;
+  }
+  [data-paroller-factor] {
+    position: static;
+    z-index: 0;
+    margin: auto;
+}
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 0;
+    }
+}
       .pre-scrollable {
         max-height: 340px;
         overflow-y: scroll
@@ -7447,7 +7476,9 @@
       .bg-white {
         background-color: #fff !important
       }
-    
+      .bright-text {
+    color: #62868E;
+}
       .bg-transparent {
         background-color: transparent !important
       }
@@ -9088,12 +9119,12 @@
     
       .mt-5,
       .my-5 {
-        margin-top: 3rem !important
+        margin-top: 1rem !important
       }
     
       .mr-5,
       .mx-5 {
-        margin-right: 3rem !important
+        margin-right: 2rem !important
       }
     
       .mb-5,
