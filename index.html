@@ -11556,6 +11556,17 @@
           border-color: #dee2e6
         }
       }
+      .header__border {
+    -webkit-animation: gradientMove 30s linear infinite;
+    animation: gradientMove 30s linear infinite;
+    background: linear-gradient(90deg, #fff7ea, #f9bdac, #ffc73b, #f5e65b, #f9cddc, #cce981, #baedd6, #fff7ea);
+    background-size: 200% 100%;
+    height: 12px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
     </style>
     
     <style type="text/css">
@@ -11606,8 +11617,7 @@
     </head>
     
     <body>
-    
-    
+      <div class="header__border"></div>
       <div class="container d-none d-lg-block d-xl-block">
         <div class="row mt-5">
           <div class="col-7 mt-5">
