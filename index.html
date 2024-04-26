@@ -11559,7 +11559,7 @@
       .header__border {
     -webkit-animation: gradientMove 30s linear infinite;
     animation: gradientMove 30s linear infinite;
-    background: linear-gradient(90deg, #fff7ea, #f9bdac, #ffc73b, #f5e65b, #f9cddc, #cce981, #baedd6, #fff7ea);
+    background: linear-gradient(90deg, #E6ECEE, #FFFEEE, #CEE6EE, #87D4EE, #3FC2EE, #10B6EE, #9FDAEE, #E6ECEE);
     background-size: 200% 100%;
     height: 12px;
     left: 0;
@@ -11567,6 +11567,27 @@
     top: 0;
     width: 100%;
 }
+
+@-webkit-keyframes gradientMove {
+    0% {
+        background-position: 200% 0
+    }
+
+    to {
+        background-position: 0 0
+    }
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 200% 0
+    }
+
+    to {
+        background-position: 0 0
+    }
+}
+
     </style>
     
     <style type="text/css">
